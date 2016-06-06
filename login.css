@@ -1,0 +1,59 @@
+body{
+	background-color: #FFE1C4;
+}
+
+input[type=text] {
+	width: 100%;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: solid;
+	border-color: #FFF2E6;
+	border-width: 2;
+    background-color: /*#cccccc*/#ffffff;
+    font-size: 18px;
+	color: black;
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+section {
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 50px;
+	padding-bottom: 170px;
+	height: auto;
+
+
+}
+img{
+	border-color: #FFE1C4;
+}
+
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.inLine{
+	margin-top: 30px;
+	padding: 30px;
+	text-align: left;
+	background-color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a:link, a:visited {
+    background-color: #3D3729;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-top: 30;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}

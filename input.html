@@ -1,0 +1,145 @@
+<!--<!DOCTYPE HTML>
+<meta charset="UTF-8">-->
+<html>
+<head>
+  <title> FOODIC </title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main2.css">
+   <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+   <link href='http://fonts.googleapis.com/css?family=Mouse+Memoirs' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/hanna.css">
+   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+</head>
+	
+<body>
+	<h1>
+	<div class="b">
+	F o o d i c 
+	<font size='-1' color=#ffddff></br>find your recipe in our food dictionary!<!--</br>If you can't see pictures, please click the error picture and refresh Foodic page.</br>--></font></div>
+	</h1>
+    <!--<font face="Bradley Hand ITC" size="6">So, you want Different Fonts?</font>-->
+	<section class="container">
+		<div class="row">
+			
+		    <aside class="container">
+				<div class="row2">
+					<!--<img src="C:\Users\Brenda\Desktop\★★★\noname01.jpg"/>-->
+					
+<!-- output 시작. -->
+<div class="responsive">
+  <div class="img" id="out_1">
+    <a id="link_1" target="_blank" href="">
+      <img class="sen" id ="img_1" src="" alt="1위" onerror="imgError(this)">
+    </a>
+    <div class="desc" id="name_1"></div><div class="desc2" id="price_1"></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img" id="out_2">
+    <a id="link_2"	target="_blank" href="">
+      <img class="sen" id ="img_2"	src="" alt="2위" onerror="imgError(this)" >
+    </a>
+    <div class="desc"	id="name_2" ></div><div class="desc2" id="price_2"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img"	id="out_3">
+    <a id="link_3"	target="_blank" href="">
+      <img class="sen" id ="img_3"	src="" alt="3위" onerror="imgError(this)" >
+    </a>
+    <div class="desc" id="name_3"></div><div class="desc2" id="price_3"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img"	id="out_4">
+    <a 	id="link_4"	target="_blank" href="">
+      <img class="sen" id ="img_4"	src="" alt="4위" onerror="imgError(this)" >
+    </a>
+    <div class="desc" id="name_4"></div><div class="desc2" id="price_4"></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+					<div class="responsive">
+  <div class="img"	id="out_5">
+    <a id="link_5"	target="_blank" href="">
+      <img class="sen" id ="img_5"	src="" alt="5위" onerror="imgError(this)"  >
+    </a>
+    <div class="desc" id="name_5"></div><div class="desc2" id="price_5"></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img"	id="out_6">
+    <a id="link_6"	target="_blank" href="">
+		<img class="sen" id ="img_6"	src="" alt="6위" onerror="imgError(this)" >
+    </a>
+    <div class="desc" id="name_6"></div><div class="desc2" id="price_6"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img"	id="out_7">
+    <a id="link_7"	target="_blank" href="">
+      <img class="sen" id ="img_7"	src="" alt="7위" onerror="imgError(this)" >
+    </a>
+    <div class="desc" id="name_7"></div><div class="desc2" id="price_7"></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img"	id="out_8">
+    <a id="link_8"	target="_blank" href="">
+      <img class="sen" id ="img_8"	src="" alt="8위" onerror="imgError(this)" >
+   </a>
+    <div class="desc" id="name_8"></div><div class="desc2" id="price_8"></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+				</div>
+		    </aside>
+			
+			<div class="col2">
+				<p><input id="txt" type="text" name="txt" placeholder="재료 입력" maxlength="20"></input>  
+	            <input class="please" type="submit" id="insert" onclick="check_list(txt.value)" value="insert"/></p>
+				<p><input class="blank" id="money" type="text" name="money" placeholder="Money" maxlength="9"> </input> 
+				<p><input id="Finish" type="submit" onclick="finish()" value="finish" /></p>
+				
+			</div>
+			
+			<div class="col1">
+				<div>
+					<p id="list_name" align="center"></p>
+					<ol id="input_list">
+		
+					</ol>
+			    </div>
+			</div>
+			<br>
+			<div class="col">
+			    ## If you click the list element, it will erased from fist one. ##
+		    </div>
+		</div>
+		<p id="demo"></p>
+	
+	</section>
+		
+		
+	<footer>
+	<font color=#000 >@Database : D.H Kim, W.S Nam, S.Y Lee</font>
+	</footer>
+	
+	
+</body>
+<script src="javascript.js"></script>
+</html>

@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/laomuangkhong.css);
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-position: center top;
+  background-size: cover;
+  background-color: /*#F2E8C4 #EABCA4#330000 #ff6633*/#FF8000;
+}
+
+
+section {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 170px;
+	height: auto;
+	background-color: white;
+	
+}
+
+.row{
+	max-width: 100%;
+	float: left;
+	padding-top: 15;
+}
+
+h1 {
+	/*background-color: #330000;*/
+	text-align: center;
+	color: white;
+	font-size: 50px;
+  font-weight: 700;
+	padding-top : 10px;
+  padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30;
+	margin-top: 20;
+	margin-bottom: 30;
+	margin-left: 25%;
+	margin-right: 25%;
+	/*font-family: 'Bradley Hand ITC', sans-serif;*/ 
+	/*font-family: 'Indie Flower', cursive;*/
+	/*font-family: "Arial Black", Gadget, sans-serif;*/
+	/*font-family: "Comic Sans MS", cursive, sans-serif;*/
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Slabo 27px', serif;
+	border-style: dashed;
+	border-width:5px;
+	border-color: white;
+}
+h1 .b{
+	/*text-shadow: 2px 2px 5px #333333;*/
+	/*text-shadow: 1px 1px 2px black, 0 0 25px #666666, 0 0 5px white;*/
+}
+
+h1 .a{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #ffcc99;
+	font-size: 2px;
+	margin-bottom: 5%;
+}
+
+div {
+  padding-right: 10px;
+  height: auto;
+}
+
+ul .page-description {
+
+  list-style-type: circle;
+}
+
+.col{
+	text-align: left;
+	width: 30%;
+	font-family:'Mouse Memoirs', sans-serif;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	float: bottom;
+	text-align: center;
+}
+.col1 {
+  text-align: left;
+  padding: 10px;
+  /*border-style: dotted dashed solid double;*/
+  /*border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;*/
+  border-style: double;
+  border-color: #172029;
+  font-size: 20px;
+  font-family: 'Jeju Gothic', sans-serif;
+  /*font-family: 'Nanum Brush Script', cursive;*/
+  border-width: 5px;
+  background-color: /*#ccff99 #EABCA4 #F2E8C4*/ white;	
+  float: left;
+  width: 30%;
+  height: auto;
+  border-radius: 0%
+}  
+
+.col2 {
+	float: left clear;
+    width: 30%;
+	font-family: 'Lobster';
+	font-size: 25px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+input[type=text] {
+    width: 1000px;
+	max-width: 70%;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border: none;
+    background-color: /*#cccccc*/#ffffff;
+    font-size: 18px;
+	color: black;
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+input[type=submit] {
+	width: auto;
+    background-color: /*#000066 #3D3729*/ red;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+	font-size: 18px;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.please {
+	width: auto;
+    background-color: /*#000066*/ #172029;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 20px;
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+footer{
+	text-align: right;
+	font-size:14px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin:10px;
+}
+.blank{
+	margin-right: 25%;
+}
+.sen{
+text-align: center;
+vertical-align: middle;
+}

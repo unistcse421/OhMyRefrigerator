@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title> FOODIC </title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Mouse+Memoirs' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/hanna.css">
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8"/>
+</head>
+<body>
+		  <section class="container">
+		    <h1><img src="noname01.jpg"/><br><font size='5' color=#3D3729 > Hi, Welcome to FooDic !!</font></h1>
+				<div class="inLine">
+				
+				<h3>ID :  <br><br><input type="text" id="ID_input" name="id" placeholder="Enter list name"></h3></div>
+				<a href="input.html" onclick="return ID_()" style="float:center" > Click! </a>
+				
+				
+		  </section>
+		  
+		  <script>
+		  function ID_(){
+			
+			var name = document.getElementById("ID_input").value;
+			var r = confirm('사용하실 리스트 이름이 맞습니까?  \'' + name  + '\'');
+			
+			if( typeof(Storage) !== "undefined") {
+					sessionStorage.setItem("ID", name);
+					
+			} else{
+				alert("Sorry! No Web Storage support..");
+			}
+			
+			if(r == true){
+				return true;
+			} else{
+				return false;
+			}
+		}
+		
+		  
+		  </script>
+		  
+</body>
+
+</html>
